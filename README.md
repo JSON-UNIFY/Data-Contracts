@@ -22,7 +22,7 @@ Enable sequential / temporal agreements
 REQUIRED PAYLOAD PROPERTIES
 ## @metadata
 - @contract - specification for the contract, so receivers and senders have an agreement on the format
-- @communication - how the information will be transmitted and received
+- communication - how the information will be transmitted and received
 - @policies - any legal, license, or governance policies associated with the contract
 
 ## @data
