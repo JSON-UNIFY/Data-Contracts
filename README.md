@@ -14,7 +14,7 @@ Allow for any format / data representation (CSV, JSON, Relational Table using SQ
 Allow for any industry to have 3rd party reference frames for data contracts, for federated computing
 Enable sequential / temporal agreements
 
-<img src="https://github.com/Intelligence-AI/json-unify/blob/main/data_contract.png" height="800" />
+<img src="https://github.com/Intelligence-AI/json-unify/blob/main/data_contract.png" height="600" />
 
 REQUIRED PAYLOAD PROPERTIES
 ## @metadata
