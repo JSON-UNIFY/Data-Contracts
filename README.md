@@ -5,10 +5,13 @@ Open Source Data Contracts
 ### A data contract has a functional purpose of reducing ambiguity and errors, and increasing trust and efficiency.
 ### The JSON-UNIFY specification has three requirements: @metadata, @data, and @semantics
 
-DESIGNED FOR SIMPLICITY, CONFIGURABILITY, AND SCALABILITY
+## DESIGNED FOR SIMPLICITY, CONFIGURABILITY, AND SCALABILITY:
 By making the entire data contract a JSON specification, it has maximum flexibility for customization, including industry-specific templates and standards.
 
-BENEFITS:
+## LEGEND:
+Any key with an "@" symbol means it is required. If the parent has no "@" symbol, it means that it is required only if the parent (optional) is added. For example, if you are going to add the key "values" to your "@semantics" block, then "@description" must be included for each property listed.
+
+## BENEFITS:
 Ensure that metadata is included with the data, so that users don't have to waste time trying to understand what a column definition really means.
 Allow for any format / data representation (CSV, JSON, Relational Table using SQL, etc.)
 Allow for any industry to have 3rd party reference frames for data contracts, for federated computing
@@ -54,14 +57,13 @@ Depending on the type of data, one or more of these must be included:
       "id": "1"
 
     },
-    "@communication": {
+    "communication": {
       "method": "GET",
       "endpoint": "my_site.com/api/25958",
       "protocol": "https"
     },
-    "@policies": {
-      "license": "The GNU General Public License v3.0",
-      "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
+    "@license": {
+      "@url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
     }
   },
   "@data": {    
@@ -95,39 +97,39 @@ Depending on the type of data, one or more of these must be included:
         {
           "city": {
             "ontology": "https://babelnet.org/synset?id=bn%3A00019319n&orig=city&lang=EN",
-            "definition": "A large and densely populated urban area; may include several independent administrative districts "
+            "@definition": "A large and densely populated urban area; may include several independent administrative districts "
           }
         },
         {
           "latitude": {
             "ontology": "https://babelnet.org/synset?id=bn%3A00050177n&orig=latitude&lang=EN",
-            "definition": "The angular distance between an imaginary line around a heavenly body parallel to its equator and the equator itself"
+            "@definition": "The angular distance between an imaginary line around a heavenly body parallel to its equator and the equator itself"
           }
         },
         {
           "longitude": {
             "ontology": "https://babelnet.org/synset?id=bn%3A00051951n&orig=longitude&lang=EN",
-            "definition": "The angular distance between a point on any meridian and the prime meridian at Greenwich"
+            "@definition": "The angular distance between a point on any meridian and the prime meridian at Greenwich"
           }
         },
         {
           "rating": {
             "ontology": null,
-            "definition": "A rating between 1 to 5, where 1 is the worst, 3 is neutral, and 5 is the best"
+            "@definition": "A rating between 1 to 5, where 1 is the worst, 3 is neutral, and 5 is the best"
           }
         }
       ],
-      "@values": [
+      "values": [
         {
           "San Francisco": {
             "ontology": "https://babelnet.org/synset?id=bn%3A00069104n&orig=San%20Francisco&lang=EN",
-            "definition": "A port in western California near the Golden Gate that is one of the major industrial and transportation centers; it has one of the world's finest harbors; site of the Golden Gate Bridge"
+            "@definition": "A port in western California near the Golden Gate that is one of the major industrial and transportation centers; it has one of the world's finest harbors; site of the Golden Gate Bridge"
           }
         },
         {
           "New York": {
             "ontology": "https://babelnet.org/synset?id=bn%3A00041611n&orig=New%20York&lang=EN",
-            "definition": "The largest city in New York State and in the United States; located in southeastern New York at the mouth of the Hudson river; a major financial and cultural center"
+            "@definition": "The largest city in New York State and in the United States; located in southeastern New York at the mouth of the Hudson river; a major financial and cultural center"
           }
         }
       ]
