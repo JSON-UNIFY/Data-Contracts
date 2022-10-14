@@ -138,3 +138,102 @@ Depending on the type of data, one or more of these must be included:
   }
 }
 ```
+
+# JSON-SCHEMA
+
+```
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "id": "1",
+  "type": "object",
+  "properties": {
+    "@metadata": {
+      "type": "object",
+      "properties":{
+        "@contract":{
+          "type":"object",
+          "properties": {
+            "schema": {
+              "type":"string"
+            },
+            "uri": {
+              "type":"string"
+            },
+            "id": {
+              "type":"integer"
+            }
+          }
+        },
+        "@communication":{
+          "type":"object",
+          "properties": {
+            "method": {
+              "type":"string"
+            },
+            "endpoint": {
+              "type":"string"
+            },
+            "protocol": {
+              "type":"string"
+            }
+          }
+        }
+      }
+    },
+    "@data": {
+      "type": "object",
+      "properties": {        
+        "@json": {
+          "type":"object",
+          "properties": {
+            "visits": {
+              "type":"array",
+              "contains": {
+                "city":"string",
+                "latitude":"number",
+                "longitude":"number",
+                "rating":"integer"
+              }
+            }
+          }        
+        }
+      }
+    },
+    "@semantics":{
+      "type":"object",
+      "properties":{
+        "@json": {
+          "type": "object",
+          "properties": {
+            "@keys": {
+              "type": "array",
+              "contains": {
+                "city": {
+                  "type": "object",
+                  "properties": {
+                    "ontology": "string",
+                    "definition": "string"
+                  }
+                }
+              }
+            },
+            "@values": {
+              "type": "array",
+              "contains": {
+                "city_name": {
+                  "type": "object",
+                  "properties": {
+                    "ontology": "string",
+                    "definition": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
+
