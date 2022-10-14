@@ -1,5 +1,5 @@
-# json-unify
-Open Source Data Contracts 
+# JSON-UNIFY
+A simple specification for open-source data contracts to unify agreement, understanding, and expectations
 
 ### Simply, a data contract is a declarative agreement between a sender and receiver of information in a communication event (API payload for example).
 ### A data contract has a functional purpose of reducing ambiguity and errors, and increasing trust and efficiency.
