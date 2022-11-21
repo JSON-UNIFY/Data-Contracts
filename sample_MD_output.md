@@ -1,3 +1,4 @@
+{'compliance': [['NAME', 'TYPE', 'DESCRIPTION', 'REQUIREMENTS']], 'sla': [['NAME', 'TYPE', 'DESCRIPTION', 'REQUIREMENTS']], 'roles': [['ROLE', 'RESPONSIBILITIES']]}
 # Auto-generate JSON-Unify documentation with PyUnify
 
 
@@ -112,16 +113,21 @@ Otherwise, the title will be auto-generated from the meta name property
 ## Governance - SLA
 
 ```
-|    | Key         | Value                         |
-|---:|:------------|:------------------------------|
-|  0 | contract    | https://github.com/JSON-UNIFY |
-|  1 | description |                               |
-|  2 | source      |                               |
-|  3 | table       |                               |
-|  4 | query       |                               |
-|  5 | tags        |                               |
-|  6 | authors     |                               |
-|  7 | id          |                               |
-|  8 | contact     |                               |
-|  9 | name        |                               |
+|    | 0    | 1    | 2           | 3            |
+|---:|:-----|:-----|:------------|:-------------|
+|  0 | NAME | TYPE | DESCRIPTION | REQUIREMENTS |
+```
+## Governance - ROLES
+
+```
+|    | 0    | 1                |
+|---:|:-----|:-----------------|
+|  0 | ROLE | RESPONSIBILITIES |
+```
+## Governance - COMPLIANCE
+
+```
+|    | 0    | 1    | 2           | 3            |
+|---:|:-----|:-----|:------------|:-------------|
+|  0 | NAME | TYPE | DESCRIPTION | REQUIREMENTS |
 ```
