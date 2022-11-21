@@ -7,9 +7,9 @@
 JSON-Unify is a minimal & simple specification requiring **metadata**, **concepts**, and **data** are in one self-contained JSON object.
 ```
 JSON-Unify = {
-concepts: {},
-data: {},
-meta: {}
+	concepts: {},
+	data: {},
+	meta: {}
 }
 ```
 
