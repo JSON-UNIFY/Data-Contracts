@@ -13,7 +13,7 @@ JSON-Unify = {
 }
 ```
 
-You can have a pointer (URL reference) to the data if the data is large or if the data is not in JSON format. This still provides a single object in JSON format that can be used to communicate data
+<em>You can have a pointer (URL reference) to the data if the data is too large/inefficient to include in a JSON object or if the data is not in JSON format.</em> This still provides a single object in JSON format that can be used to communicate data
 ### BENEFITS
 
 No license needed, no technology to budget, buy, or implement. Anyone can use it, an obvious and simple user experience that will help entire teams.
