@@ -1,7 +1,7 @@
 # Auto-generate JSON-Unify documentation with PyUnify
 
 
-### THE SPECIFICATION
+### THE JSON-Unify SPECIFICATION
 
 
 JSON-Unify is a <em>minimal & simple specification</em> requiring **metadata**, **concepts**, and **data** are in one self-contained JSON object.
