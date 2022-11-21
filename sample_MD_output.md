@@ -1,4 +1,4 @@
-# This JSON-Unify object documentation was auto-generated with PyUnify
+# Auto-generate JSON-Unify documentation with PyUnify
 
 To instantiate this JSON-Unify data contract with PyUnify:
 - Copy the JSON code in this MD file below.
