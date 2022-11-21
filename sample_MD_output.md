@@ -19,7 +19,26 @@ You can have a pointer (URL reference) to the data if the data is large or if th
 No license needed, no technology to budget, buy, or implement. Anyone can use it, an obvious and simple user experience that will help entire teams.
 The purpose and benefit of using JSON-Unify is to improve the user experience of those who create, consume, and share data by reducing ambiguitiy and saving time.
 
-To instantiate this JSON-Unify data contract with PyUnify:
+
+### PyUnify IS A WRAPPER TO MAKE WORKING WITH JSON-UNIFY EASY
+
+There are **recommendedations** to further enrich your data in the specification, but they are not requirements. You can view those at: https://github.com/JSON-UNIFY 
+PyUnify is a Python library that auto-generates and adds recommended JSON-Unify properties.
+For example, 'meta' recommended fields are:
+      {
+        "contract":"https://github.com/JSON-UNIFY",
+        "description": None,
+        "source": None,
+        "table": None,
+        "query": None,
+        "tags": None,
+        "authors": None,
+        "id": None,
+        "contact": None,
+        "name": None
+    }
+
+    To instantiate this JSON-Unify data contract with PyUnify:
 - Copy the JSON code in this MD file below.
 - In your Python Notebook:
 ```
