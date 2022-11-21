@@ -53,9 +53,8 @@ Otherwise, the title will be auto-generated from the meta name property
 ## Compute
 
 ```
-|    | function                            | event listener description                                            |
-|---:|:------------------------------------|:----------------------------------------------------------------------|
-|  0 | unify.example_data_event_listener() | Example of a function called when adding a new row to the data object |
+| function   | event listener description   |
+|------------|------------------------------|
 ```
 ## Concepts - Headers
 
@@ -104,6 +103,15 @@ Otherwise, the title will be auto-generated from the meta name property
 | 14 | 1437 | Selina       | Kyle        | 1998         | 5'7"     | Gotham          | Y                    | NA        | Neutral      | It clashes   |
 | 15 | 1883 | Raven        | Darkholme   | ..1911..     | 5'10"    | unknown         | Y                    | no        | mostly bad   | Not really   |
 | 16 | 5830 | Kara         | Zor-el      | 1961         | 5'7"     | Krypton         | Y                    | fast      | G            | yes          |
+```
+## Lineage
+
+```
+|    | LISTENER   | EVENT   | DESCRIPTION          | TIMESTAMP            |
+|---:|:-----------|:--------|:---------------------|:---------------------|
+|  0 | data       | init    | data initialized     | 11/21/2022, 20:36:32 |
+|  1 | meta       | init    | meta initialized     | 11/21/2022, 20:36:32 |
+|  2 | concepts   | init    | concepts initialized | 11/21/2022, 20:36:32 |
 ```
 ## Meta
 
