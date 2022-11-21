@@ -109,9 +109,9 @@ Any transformation of your data can be captured here if you wish to capture it f
 ```
 |    | LISTENER   | EVENT   | DESCRIPTION          | TIMESTAMP            |
 |---:|:-----------|:--------|:---------------------|:---------------------|
-|  0 | data       | init    | data initialized     | 11/21/2022, 21:01:19 |
-|  1 | meta       | init    | meta initialized     | 11/21/2022, 21:01:19 |
-|  2 | concepts   | init    | concepts initialized | 11/21/2022, 21:01:19 |
+|  0 | data       | init    | data initialized     | 11/21/2022, 21:04:21 |
+|  1 | meta       | init    | meta initialized     | 11/21/2022, 21:04:21 |
+|  2 | concepts   | init    | concepts initialized | 11/21/2022, 21:04:21 |
 ```
 ## Meta
 Any documentation of the metadata used to describe and discover your data.
@@ -156,6 +156,9 @@ Any documentation of any legal and compliance issues related to your data.
 |---:|:-----|:-----|:------------|:-------------|
 |  0 | NAME | TYPE | DESCRIPTION | REQUIREMENTS |
 ```
+
+## JSON-Unify Object
+You can copy and paste this JSON object into a PyUnify object to create a duplicate of the object that generated this page.
 
 
 ```
