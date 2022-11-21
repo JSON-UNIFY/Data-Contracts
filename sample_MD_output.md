@@ -22,9 +22,9 @@ The purpose and benefit of using JSON-Unify is to improve the user experience of
 
 ### PyUnify IS A WRAPPER TO MAKE WORKING WITH JSON-UNIFY EASY
 
-PyUnify is a Python library that auto-generates and adds recommended JSON-Unify properties, as well as helper functions like exporting .MD files.
-View **recommendedations** to further enrich your data in the specification, but they are not requirements. You can view those at: https://github.com/JSON-UNIFY 
-For example, a few 'meta' recommended fields are: a description of the data, the source of the data, the author of the data, the data contract URLTo instantiate this JSON-Unify data contract with PyUnify:
+- PyUnify is a Python library that auto-generates and adds recommended JSON-Unify properties, as well as helper functions like exporting .MD files.
+- View the **specification** and **recommendations** to further enrich your data in the specification at: https://github.com/JSON-UNIFY.
+- For example, a few 'meta' recommended fields are: a description of the data, the source of the data, the author of the data, the data contract URL.To instantiate this JSON-Unify data contract with PyUnify:
 - Copy the JSON code in this MD file below.
 - In your Python Notebook:
 ```
