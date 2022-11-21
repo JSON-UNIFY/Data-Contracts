@@ -5,14 +5,14 @@
 
 
 JSON-Unify is a minimal & simple specification requiring **metadata**, **concepts**, and **data** are in one self-contained JSON object.
-    ```
-    JSON-Unify = {
-      concepts: {}
-      data: {},
-      meta: {}
-    }
-    ```
-    
+```
+JSON-Unify = {
+concepts: {},
+data: {},
+meta: {}
+}
+```
+
 No license needed, no technology to budget, buy, or implement. Anyone can use it, an obvious and simple user experience that will help entire teams.
 There are **recommendedations** to further enrich your data in the specification, but they are not requirements. You can view those at: https://github.com/JSON-UNIFY 
 PyUnify is a Python library that auto-generates and adds recommended JSON-Unify properties. For example, 'meta' recommended fields are:
