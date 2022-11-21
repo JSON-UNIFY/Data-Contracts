@@ -30,7 +30,6 @@ To instantiate this JSON-Unify data contract with PyUnify:
 - Copy the JSON code in this MD file below.
 - In your **Python Notebook**:
 ```
-
 !pip install PyUnify
 import PyUnify
 unify = PyUnify(paste_json_from_this_MD_file)
@@ -47,6 +46,10 @@ unify.md({'title':'My title here'})
 ```
 
 Otherwise, the title will be auto-generated from the meta name property
+
+## Example PyUnify .MD output when the only input is a data set
+
+### PyUnify can guide you step-by-step to fill out empty tables and fields in order to enrich the discoverability and quality of the data experience you are creating for those that will use your data.
 ## Concepts - Headers
 
 ```
