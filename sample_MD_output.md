@@ -46,7 +46,8 @@ To edit the title of the documentation use:
 unify.md({'title':'My title here'})
 ```
 
-Otherwise, the title will be auto-generated from the meta name property## Concepts - Headers
+Otherwise, the title will be auto-generated from the meta name property
+## Concepts - Headers
 
 ```
 |    | name               | type   | description   | wikidata   |
