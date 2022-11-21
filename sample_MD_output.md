@@ -25,6 +25,7 @@ The purpose and benefit of using JSON-Unify is to improve the user experience of
 There are **recommendedations** to further enrich your data in the specification, but they are not requirements. You can view those at: https://github.com/JSON-UNIFY 
 PyUnify is a Python library that auto-generates and adds recommended JSON-Unify properties.
 For example, 'meta' recommended fields are:
+    ```
       {
         "contract":"https://github.com/JSON-UNIFY",
         "description": None,
@@ -37,6 +38,7 @@ For example, 'meta' recommended fields are:
         "contact": None,
         "name": None
     }
+    ```
 
     To instantiate this JSON-Unify data contract with PyUnify:
 - Copy the JSON code in this MD file below.
