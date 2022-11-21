@@ -1,11 +1,12 @@
-# Using PyUnify To Export A JSON-Unify Object As Markdown
+# This JSON-Unify object documentation was auto-generated with PyUnify
 
 To instantiate this JSON-Unify data contract with PyUnify:
 - Copy the JSON code in this MD file below.
 - In your Python Notebook:
 ```
 import pyunify
-unify = PyUnify(paste_json_here)This markdown file was automatically generated with ```unify.md()```
+unify = PyUnify(paste_json_here)```
+This markdown file was automatically generated with ```unify.md()```
 
 The goal of JSON-Unify is to get **metadata** and **concepts**, included **with the data** itself (in a file or API payload), to improve the user experience of those who create, consume, and share data.
 
