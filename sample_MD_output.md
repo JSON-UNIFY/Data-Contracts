@@ -1,5 +1,19 @@
 # JSON-Unify Object As Markdown
 
+To create a new data product using the JSON-Unify data contract specification:
+- Copy the JSON code in from below in the cell named 'JSON'
+- In your Python Notebook:
+```
+import pyunify as uf
+unify = uf.JsonUnify(paste_json)
+```
+
+This markdown file was automatically generated with ```unify.md()```
+
+The goal of JSON-Unify is to get **metadata** and **concepts**, included **with the data** itself (in a file or API payload), to improve the user experience of those who create, consume, and share data.
+
+<em>By creating clean & rich data with JSON-Unify, you are helping the next person who needs to use it by saving them time and increasing their understanding of the data.</em>
+
 ## Concepts - Headers
 
 ```
@@ -44,6 +58,22 @@
 | 16 | 5830 | Kara         | Zor-el      | 1961         | 5'7"     | Krypton         | Y                    | fast      | G            | yes          |
 ```
 ## Meta
+
+```
+|    | Key         | Value                         |
+|---:|:------------|:------------------------------|
+|  0 | contract    | https://github.com/JSON-UNIFY |
+|  1 | description |                               |
+|  2 | source      |                               |
+|  3 | table       |                               |
+|  4 | query       |                               |
+|  5 | tags        |                               |
+|  6 | authors     |                               |
+|  7 | id          |                               |
+|  8 | contact     |                               |
+|  9 | name        |                               |
+```
+## Governance - SLA
 
 ```
 |    | Key         | Value                         |
