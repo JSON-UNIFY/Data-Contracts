@@ -51,13 +51,13 @@ Otherwise, the title will be auto-generated from the meta name property
 
 ### PyUnify can guide you step-by-step to fill out empty tables and fields in order to enrich the discoverability and quality of the data experience you are creating for those that will use your data.
 ## Compute
-
+If you want to add any event listeners to auto-trigger an event, this is where it would be listed. For example, if data is updated, you might want to auto-update documentation. You may want to have a function that posts to GitHub, or does an NLP check.
 ```
 | function   | event listener description   |
 |------------|------------------------------|
 ```
 ## Concepts - Headers
-
+Any documentation or the concepts used in the headers of your data table.
 ```
 |    | name               | type   | description   | wikidata   |
 |---:|:-------------------|:-------|:--------------|:-----------|
@@ -73,17 +73,17 @@ Otherwise, the title will be auto-generated from the meta name property
 |  9 | Wears cape         |        |               |            |
 ```
 ## Concepts - Values
-
+Any documentation or the concepts used in the values of acolumn in your data table.
 ```
 
 ```
 ## Custom
-
+All of your JSON-Unify objects can go here.
 ```
 
 ```
 ## Data
-
+The data of your JSON-Unify object.
 ```
 |    |   ID | First name   | Last name   | Birth year   | Height   | Birthplace      | Identity is secret   | Can fly   | Alignment    | Wears cape   |
 |---:|-----:|:-------------|:------------|:-------------|:---------|:----------------|:---------------------|:----------|:-------------|:-------------|
@@ -105,16 +105,16 @@ Otherwise, the title will be auto-generated from the meta name property
 | 16 | 5830 | Kara         | Zor-el      | 1961         | 5'7"     | Krypton         | Y                    | fast      | G            | yes          |
 ```
 ## Lineage
-
+Any transformation of your data can be captured here if you wish to capture it for data lineage purposes.
 ```
 |    | LISTENER   | EVENT   | DESCRIPTION          | TIMESTAMP            |
 |---:|:-----------|:--------|:---------------------|:---------------------|
-|  0 | data       | init    | data initialized     | 11/21/2022, 20:36:32 |
-|  1 | meta       | init    | meta initialized     | 11/21/2022, 20:36:32 |
-|  2 | concepts   | init    | concepts initialized | 11/21/2022, 20:36:32 |
+|  0 | data       | init    | data initialized     | 11/21/2022, 20:52:52 |
+|  1 | meta       | init    | meta initialized     | 11/21/2022, 20:52:52 |
+|  2 | concepts   | init    | concepts initialized | 11/21/2022, 20:52:52 |
 ```
 ## Meta
-
+Any documentation of the metadata used to describe and discover your data.
 ```
 |    | Key         | Value                         |
 |---:|:------------|:------------------------------|
@@ -129,22 +129,28 @@ Otherwise, the title will be auto-generated from the meta name property
 |  8 | contact     |                               |
 |  9 | name        |                               |
 ```
+## Project
+Any documentation related to project management of this data object.
+```
+| description   | status   | date   |
+|---------------|----------|--------|
+```
 ## Governance - SLA
-
+Any documentation of any SLA information.
 ```
 |    | 0    | 1    | 2           | 3            |
 |---:|:-----|:-----|:------------|:-------------|
 |  0 | NAME | TYPE | DESCRIPTION | REQUIREMENTS |
 ```
 ## Governance - ROLES
-
+Any documentation about roles & access for your data object.
 ```
 |    | 0    | 1                |
 |---:|:-----|:-----------------|
 |  0 | ROLE | RESPONSIBILITIES |
 ```
 ## Governance - COMPLIANCE
-
+Any documentation of any legal and compliance issues related to your data.
 ```
 |    | 0    | 1    | 2           | 3            |
 |---:|:-----|:-----|:------------|:-------------|
