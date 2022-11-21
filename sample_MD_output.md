@@ -1,19 +1,32 @@
 # Auto-generate JSON-Unify documentation with PyUnify
 
-To instantiate this JSON-Unify data contract with PyUnify:
+
+### THE SPECIFICATION
+
+
+JSON-Unify is a simple specification requiring **metadata**, **concepts**, and **data** are in one self-contained JSON object.
+The purpose and benefit of using JSON-Unify is to improve the user experience of those who create, consume, and share data by reducing ambiguitiy and saving time.
+
+
+You can have a pointer (URL reference) to the data if the data is large or if the data is not in JSON format. This still provides a single object in JSON format that can be used to communicate dataTo instantiate this JSON-Unify data contract with PyUnify:
 - Copy the JSON code in this MD file below.
 - In your Python Notebook:
 ```
 import pyunify
 unify = PyUnify(paste_json_here)
 ```
-This markdown file was automatically generated with ```unify.md()```
 
-The goal of JSON-Unify is to get **metadata** and **concepts**, included **with the data** itself (in a file or API payload), to improve the user experience of those who create, consume, and share data.
+This markdown file was automatically generated with 
+```
+unify.md()
+```
 
-<em>By creating clean & rich data with JSON-Unify, you are helping the next person who needs to use it by saving them time and increasing their understanding of the data.</em>
+To edit the title of the documentation use: 
+```
+unify.md({'title':'My title here'})
+```
 
-## Concepts - Headers
+Otherwise, the title will be auto-generated from the meta name property## Concepts - Headers
 
 ```
 |    | name               | type   | description   | wikidata   |
