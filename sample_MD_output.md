@@ -5,6 +5,22 @@
 
 
 JSON-Unify is a simple specification requiring **metadata**, **concepts**, and **data** are in one self-contained JSON object.
+There are **recommendedations** to further enrich your data in the specification, but they are not requirements. You can view those at: https://github.com/JSON-UNIFY 
+PyUnify is a Python library that auto-generates and adds recommended JSON-Unify properties. For example, 'meta' recommended fields are:
+      {
+        "contract":"https://github.com/JSON-UNIFY",
+        "description": None,
+        "source": None,
+        "table": None,
+        "query": None,
+        "tags": None,
+        "authors": None,
+        "id": None,
+        "contact": None,
+        "name": None
+    }
+
+    
 The purpose and benefit of using JSON-Unify is to improve the user experience of those who create, consume, and share data by reducing ambiguitiy and saving time.
 
 
