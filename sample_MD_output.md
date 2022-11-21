@@ -1,4 +1,3 @@
-{'compliance': [['NAME', 'TYPE', 'DESCRIPTION', 'REQUIREMENTS']], 'sla': [['NAME', 'TYPE', 'DESCRIPTION', 'REQUIREMENTS']], 'roles': [['ROLE', 'RESPONSIBILITIES']]}
 # Auto-generate JSON-Unify documentation with PyUnify
 
 
@@ -51,6 +50,11 @@ Otherwise, the title will be auto-generated from the meta name property
 ## Example PyUnify .MD output when the only input is a data set
 
 ### PyUnify can guide you step-by-step to fill out empty tables and fields in order to enrich the discoverability and quality of the data experience you are creating for those that will use your data.
+## Compute
+
+```
+
+```
 ## Concepts - Headers
 
 ```
