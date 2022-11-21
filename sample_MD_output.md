@@ -3,6 +3,12 @@
 
 ### THE SPECIFICATION
 
+    JSON-Unify = {
+      concepts: {}
+      data: {},
+      meta: {}
+    }
+    
 
 JSON-Unify is a simple specification requiring **metadata**, **concepts**, and **data** are in one self-contained JSON object.
 There are **recommendedations** to further enrich your data in the specification, but they are not requirements. You can view those at: https://github.com/JSON-UNIFY 
