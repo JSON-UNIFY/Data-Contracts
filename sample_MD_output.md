@@ -53,7 +53,9 @@ Otherwise, the title will be auto-generated from the meta name property
 ## Compute
 
 ```
-
+|    | function                            | event listener description                                            |
+|---:|:------------------------------------|:----------------------------------------------------------------------|
+|  0 | unify.example_data_event_listener() | Example of a function called when adding a new row to the data object |
 ```
 ## Concepts - Headers
 
