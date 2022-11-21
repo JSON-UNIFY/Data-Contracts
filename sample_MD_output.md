@@ -4,7 +4,7 @@
 ### THE SPECIFICATION
 
 
-JSON-Unify is a minimal & simple specification requiring **metadata**, **concepts**, and **data** are in one self-contained JSON object.
+JSON-Unify is a <em>minimal & simple specification</em> requiring **metadata**, **concepts**, and **data** are in one self-contained JSON object.
 ```
 JSON-Unify = {
 	concepts: {},
@@ -13,27 +13,13 @@ JSON-Unify = {
 }
 ```
 
-No license needed, no technology to budget, buy, or implement. Anyone can use it, an obvious and simple user experience that will help entire teams.
-There are **recommendedations** to further enrich your data in the specification, but they are not requirements. You can view those at: https://github.com/JSON-UNIFY 
-PyUnify is a Python library that auto-generates and adds recommended JSON-Unify properties. For example, 'meta' recommended fields are:
-      {
-        "contract":"https://github.com/JSON-UNIFY",
-        "description": None,
-        "source": None,
-        "table": None,
-        "query": None,
-        "tags": None,
-        "authors": None,
-        "id": None,
-        "contact": None,
-        "name": None
-    }
+You can have a pointer (URL reference) to the data if the data is large or if the data is not in JSON format. This still provides a single object in JSON format that can be used to communicate data
+### BENEFITS
 
-    
+No license needed, no technology to budget, buy, or implement. Anyone can use it, an obvious and simple user experience that will help entire teams.
 The purpose and benefit of using JSON-Unify is to improve the user experience of those who create, consume, and share data by reducing ambiguitiy and saving time.
 
-
-You can have a pointer (URL reference) to the data if the data is large or if the data is not in JSON format. This still provides a single object in JSON format that can be used to communicate dataTo instantiate this JSON-Unify data contract with PyUnify:
+To instantiate this JSON-Unify data contract with PyUnify:
 - Copy the JSON code in this MD file below.
 - In your Python Notebook:
 ```
