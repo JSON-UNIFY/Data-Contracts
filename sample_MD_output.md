@@ -5,7 +5,8 @@ To instantiate this JSON-Unify data contract with PyUnify:
 - In your Python Notebook:
 ```
 import pyunify
-unify = PyUnify(paste_json_here)```
+unify = PyUnify(paste_json_here)
+```
 This markdown file was automatically generated with ```unify.md()```
 
 The goal of JSON-Unify is to get **metadata** and **concepts**, included **with the data** itself (in a file or API payload), to improve the user experience of those who create, consume, and share data.
