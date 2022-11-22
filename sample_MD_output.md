@@ -13,7 +13,6 @@ JSON-Unify = {
 }
 ```
 
-<em>You can have a pointer (URL reference) to the data if the data is too large/inefficient to include in a JSON object or if the data is not in JSON format.</em> This still provides a single object in JSON format that can be used to communicate data
 ### BENEFITS
 
 No license needed, no technology to budget, buy, or implement. Anyone can use it, an obvious and simple user experience that will help entire teams.
@@ -109,9 +108,9 @@ Any transformation of your data can be captured here if you wish to capture it f
 ```
 |    | LISTENER   | EVENT   | DESCRIPTION          | TIMESTAMP            |
 |---:|:-----------|:--------|:---------------------|:---------------------|
-|  0 | data       | init    | data initialized     | 11/22/2022, 14:03:48 |
-|  1 | meta       | init    | meta initialized     | 11/22/2022, 14:03:48 |
-|  2 | concepts   | init    | concepts initialized | 11/22/2022, 14:03:48 |
+|  0 | data       | init    | data initialized     | 11/22/2022, 14:06:12 |
+|  1 | meta       | init    | meta initialized     | 11/22/2022, 14:06:12 |
+|  2 | concepts   | init    | concepts initialized | 11/22/2022, 14:06:12 |
 ```
 ## Meta
 Any documentation of the metadata used to describe and discover your data.
