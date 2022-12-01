@@ -17,6 +17,38 @@ Any documentation or the concepts used in the values of acolumn in your data tab
 | entity   | header name   | type   | description   |
 |----------|---------------|--------|---------------|
 ```
+## Meta
+Any documentation of the metadata used to describe and discover your data.
+```
+|    | key         | value                         |
+|---:|:------------|:------------------------------|
+|  0 | contract    | https://github.com/JSON-UNIFY |
+|  1 | description |                               |
+|  2 | source      | AAPL.csv                      |
+|  3 | table       |                               |
+|  4 | query       |                               |
+|  5 | tags        |                               |
+|  6 | authors     | yahoo.com                     |
+|  7 | id          |                               |
+|  8 | contact     |                               |
+|  9 | name        | Yahoo Finance Download        |
+| 10 | markdown    |                               |
+```
+## Governance - SLA
+Any documentation of any SLA information.
+```
+| category   | provider   | customer   | requirement   |
+|------------|------------|------------|---------------|
+```
+## Lineage
+Data lineage information
+```
+|    | command            | params                                                                                                                    | date                       |
+|---:|:-------------------|:--------------------------------------------------------------------------------------------------------------------------|:---------------------------|
+|  0 | Source file loaded |                                                                                                                           | 2022-12-01 04:35:58.929063 |
+|  1 | unify.query()      | meta update [{'row': 2, 'col': 'value', 'set': 'AAPL.csv'}]                                                               | 2022-12-01 04:35:58.929183 |
+|  2 | unify.query()      | meta update [{'row': 9, 'col': 'value', 'set': 'Yahoo Finance Download'}, {'row': 6, 'col': 'value', 'set': 'yahoo.com'}] | 2022-12-01 04:35:59.850592 |
+```
 ## Data
 The data of your JSON-Unify object.
 ```
@@ -1786,29 +1818,6 @@ The data of your JSON-Unify object.
 | 1761 | 2022-11-25 | 148.31 | 148.88 | 147.12 |  148.11 |     148.11  |  35195900 |
 | 1762 | 2022-11-25 | 148.31 | 148.88 | 147.12 |  148.11 |     148.11  |  35195900 |
 | 1763 | 2022-11-25 | 148.31 | 148.88 | 147.12 |  148.11 |     148.11  |  35195900 |
-```
-## Meta
-Any documentation of the metadata used to describe and discover your data.
-```
-|    | key         | value                         |
-|---:|:------------|:------------------------------|
-|  0 | contract    | https://github.com/JSON-UNIFY |
-|  1 | description |                               |
-|  2 | source      | AAPL.csv                      |
-|  3 | table       |                               |
-|  4 | query       |                               |
-|  5 | tags        |                               |
-|  6 | authors     | yahoo.com                     |
-|  7 | id          |                               |
-|  8 | contact     |                               |
-|  9 | name        | Yahoo Finance Download        |
-| 10 | markdown    |                               |
-```
-## Governance - SLA
-Any documentation of any SLA information.
-```
-| category   | provider   | customer   | requirement   |
-|------------|------------|------------|---------------|
 ```
 
 ## JSON-Unify Object (file)
@@ -6250,43 +6259,3 @@ This is the JavaScript Object Notation representation of your PyUnify Object. Yo
             143.259995,
             143.259995,
             141.970001,
-            141.970001,
-            141.970001,
-            141.970001,
-            141.970001,
-            141.970001,
-            141.970001,
-            141.789993,
-            141.789993,
-            141.789993,
-            141.789993,
-            141.789993,
-            141.789993,
-            141.789993,
-            144.339996,
-            144.339996,
-            144.339996,
-            144.339996,
-            144.339996,
-            144.339996,
-            144.339996,
-            149.679993,
-            149.679993,
-            149.679993,
-            149.679993,
-            149.679993,
-            149.679993,
-            149.679993,
-            150.660004,
-            150.660004,
-            150.660004,
-            150.660004,
-            150.660004,
-            150.660004,
-            150.660004,
-            151.740005,
-            151.740005,
-            151.740005,
-            151.740005,
-            151.740005,
-            
