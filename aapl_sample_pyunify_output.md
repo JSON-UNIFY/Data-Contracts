@@ -11,7 +11,7 @@ A data contract has a functional purpose of reducing ambiguity and errors, and i
 
 ### Optional components:
 - **lineage**: Data transformation log
-- **Governance - SLA***: Service Level Agreement info,
+- **Governance - SLA**: Service Level Agreement info,
 - etc.
 
 <i>Data in this example comes from Yahoo Finance.</i>
