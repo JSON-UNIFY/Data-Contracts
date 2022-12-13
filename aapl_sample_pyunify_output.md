@@ -1,3 +1,12 @@
+# JSON-Unify - An Open-Source Data Contract Specification 
+A simple specification for open-source data contracts to unify agreement, understanding, and expectations
+
+### Simply, a data contract is a declarative agreement between a sender and receiver of information in a communication event (API payload for example).
+### A data contract has a functional purpose of reducing ambiguity and errors, and increasing trust and efficiency.
+### The JSON-UNIFY specification has three requirements: @meta, @data, and @concepts
+
+
+
 ## Concepts - Headers
 Any documentation or the concepts used in the headers of your data table.
 ```
